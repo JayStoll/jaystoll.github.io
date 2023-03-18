@@ -1,9 +1,6 @@
 baseURL: # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title:
 paginate: 5
-theme: charlolamode
-
-
 
 menu:
     main:
@@ -25,13 +22,13 @@ menu:
         #   weight: defines order of tabs
    
 
-
+copyright: " "
 params:
     author: Jayden Stoll
 
 
     defaultTheme: auto
-    # disableThemeToggle: true
+    disableThemeToggle: true
     ShowShareButtons: true
     ShowReadingTime: false
     displayFullLangName: true
@@ -55,7 +52,7 @@ params:
             # - name: Don't click me
             #   url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
     mainSections:
-      - articles
+      - projects
 
     socialIcons:
         # - name: buymeacoffee

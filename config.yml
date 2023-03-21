@@ -41,9 +41,7 @@ params:
         enabled: true
         title: Jayden Stoll
         description: |
-
-          Hello, I am Jayden.
-           I am a software developer. 
+          Hi, I'm Jayden - a software developer driven by the excitement of creating fun and innovative software. With a passion for exploring new technologies and techniques, I'm always looking to push the boundaries of what's possible. Come take a look around and thanks for stopping by!
         imageUrl: "/images/me.jfif"
         imageTitle: Thats me
         # imageWidth: 120

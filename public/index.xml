@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright> </copyright>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beacon</title>
+      <link>//localhost:1313/projects/beacon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/beacon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Beacon - a new beginning</title>
+      <link>//localhost:1313/devlog/beacon/a-new-beginning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/devlog/beacon/a-new-beginning/</guid>
+      <description>&lt;p&gt;Beacon started life as a Global Game Jam project that I worked with a group of friends on, you can find that link &lt;a href=&#34;link:&#34; title=&#34;https://globalgamejam.org/2018/games/beacon-0&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ever since that project, Beacon became my sort of &amp;ldquo;Hello World&amp;rdquo; game when starting to learn a new game engine. The scope itself is simple yet teaches a lot with lighting, controls, collision, and a bunch of other core skills that can be expanded on in any sort of way. For fun I shared a prototype with a friend I threw together one weekend when really trying to learn Godot and the feedback was far more positive than I expected. From there I decided, yeah I will turn this into a full game.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

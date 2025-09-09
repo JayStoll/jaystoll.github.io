@@ -5,12 +5,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Projects | </title>
+<title>Development Continues | </title>
 <meta name="keywords" content="" />
-<meta name="description" content="Here is a list of some of my proudest projects I have worked on.">
+<meta name="description" content="The next phase of beacons development">
 <meta name="author" content="Jayden Stoll">
-<link rel="canonical" href="//localhost:1313/projects/" />
+<link rel="canonical" href="//localhost:1313/devlog/beacon/development-continues/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.7bfe087ae72df31787ec7a1360dd05ee246a179b51cf7a30a904b39d7f813b69.css" integrity="sha256-e/4Ieuct8xeH7HoTYN0F7iRqF5tRz3owqQSznX&#43;BO2k=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.555af97124d54bb1457985dd081b8f5616a48103aafeb30ac89fde835d65aa6c.js" integrity="sha256-VVr5cSTVS7FFeYXdCBuPVhakgQOq/rMKyJ/eg11lqmw="
+    onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="//localhost:1313/images/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/images/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/images/favicon-32x32.png">
@@ -18,8 +20,7 @@
 <link rel="mask-icon" href="//localhost:1313/images/apple-touch-icon.png">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="//localhost:1313/projects/index.xml">
-<link rel="alternate" hreflang="en" href="//localhost:1313/projects/" />
+<link rel="alternate" hreflang="en" href="//localhost:1313/devlog/beacon/development-continues/" />
 <noscript>
     <style>
         #theme-toggle,
@@ -59,7 +60,7 @@
 </noscript>
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
@@ -81,7 +82,7 @@
             </li>
             <li>
                 <a href="//localhost:1313/projects/" title="Projects">
-                    <span class="active">Projects</span>
+                    <span>Projects</span>
                 </a>
             </li>
             <li>
@@ -97,29 +98,28 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="//localhost:1313/">Home</a></div>
-  <h1>Projects</h1>
-</header>
-<div class="post-content">
-<p>Here is a list of some of my proudest projects I have worked on.</p>
+<main class="main">
 
-</div>
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="//localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="//localhost:1313/devlog/">Dev Logs</a>&nbsp;»&nbsp;<a href="//localhost:1313/devlog/beacon/">Beacon</a></div>
+    <h1 class="post-title">
+      Development Continues
+    </h1>
+    <div class="post-description">
+      The next phase of beacons development
+    </div>
+    <div class="post-meta">1 min&nbsp;·&nbsp;Jayden Stoll</div>
+  </header> 
 
+  <div class="post-content">
+  <p>After my last post I became more motivated than ever to continue working on this project. The focus of this &ldquo;sprint&rdquo; so to speak is to clean up the UI as well as add some accessibility features in allowing the user to map their own controls.</p>
+<p>Why the focus in UI so early in development? Great question dear reader, while yes I did get a basic outline that works I would have a hard time saying that it is scalable in both the developer time to create a new UI and screen resolution.</p>
 
-  <article class="post-entry"> 
-    <header class="entry-header">
-      <h2>Beacon
-      </h2>
-    </header>
-    <section class="entry-content">
-      <p>Just your average platformer except, you cant see the platforms. You must use a pulse of light to navigate around the game, with one problem, the further you get from a beacon the less you will be able to see. You must find your way to the next beacon in order to be able to see again.</p>
-    </section>
-    <section class="entry-content">
-      <img src="/images/beacon.png">
-    </section>
-    <footer class="entry-footer">0 min&amp;nbsp;·&amp;nbsp;Jayden Stoll</footer>
-  <a class="entry-link" href="https://jrocg.itch.io/beacon"></a>
+  </div>
+
+  <footer class="post-footer">
+  </footer>
 </article>
     </main>
     
@@ -175,6 +175,53 @@
         }
     };
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

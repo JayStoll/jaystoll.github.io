@@ -16,6 +16,8 @@
   </url><url>
     <loc>//localhost:1313/devlog/</loc>
   </url><url>
+    <loc>//localhost:1313/devlog/beacon/development-continues/</loc>
+  </url><url>
     <loc>//localhost:1313/projects/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>

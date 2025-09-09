@@ -20,7 +20,14 @@
       <link>//localhost:1313/devlog/beacon/a-new-beginning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/devlog/beacon/a-new-beginning/</guid>
-      <description>&lt;p&gt;Beacon started life as a Global Game Jam project that I worked with a group of friends on, you can find that link &lt;a href=&#34;link:&#34; title=&#34;https://globalgamejam.org/2018/games/beacon-0&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ever since that project, Beacon became my sort of &amp;ldquo;Hello World&amp;rdquo; game when starting to learn a new game engine. The scope itself is simple yet teaches a lot with lighting, controls, collision, and a bunch of other core skills that can be expanded on in any sort of way. For fun I shared a prototype with a friend I threw together one weekend when really trying to learn Godot and the feedback was far more positive than I expected. From there I decided, yeah I will turn this into a full game.&lt;/p&gt;</description>
+      <description>&lt;p&gt;You can find the download for the project in the &amp;lsquo;Projects&amp;rsquo; page on this site or by &lt;a href=&#34;https://jrocg.itch.io/beacon&#34;&gt;clicking this link&lt;/a&gt;, give it a try and let me know what you think!&lt;/p&gt;&#xA;&lt;p&gt;Beacon started life as a Global Game Jam project that I worked with a group of friends on, you can find that link &lt;a href=&#34;link:&#34; title=&#34;https://globalgamejam.org/2018/games/beacon-0&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-beginning&#34;&gt;The beginning&lt;/h3&gt;&#xA;&lt;p&gt;Ever since that project, Beacon became my sort of &amp;ldquo;Hello World&amp;rdquo; game when starting to learn a new game engine. The scope itself is simple yet teaches a lot with lighting, controls, collision, and a bunch of other core skills that can be expanded on in any sort of way. For fun I shared a prototype with a friend I threw together one weekend when really trying to learn Godot and the feedback was far more positive than I expected. From there I decided, yeah I will turn this into a full game.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Development Continues</title>
+      <link>//localhost:1313/devlog/beacon/development-continues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/devlog/beacon/development-continues/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

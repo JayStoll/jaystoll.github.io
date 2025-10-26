@@ -8,7 +8,7 @@ link: development-continues
 image: "/images/development-continues/settings-screenshot.png" 
 ---
 
-After my last post I became more motivated than ever to continue working on this project. The focus of this "sprint" so to speak is to clean up the UI as well as add some accessibility features in allowing the user to map their own controls and a few bug fixes along the way. While this update isn't as long or as glamorous as the first one, progress is progress. 
+After my last post I became more motivated than ever to continue working on this project. The focus of this "sprint" so to speak is to clean up the UI as well as add some accessibility features in allowing the user to map their own controls and a few bug fixes along the way. While this update isn't as long or as glamorous as the first one, progress is progress. As always link the the game can be found [here](https://jrocg.itch.io/beacon)
 
 ### Bug fixes
 Bugs happen, and the major bug that I discovered was that settings did not load unless you opened the settings menu. I was tipped off to this issue when I saved my settings to use fullscreen and the next time I opened the game, it was not in full screen. 
@@ -57,4 +57,4 @@ clicking on the button will allow you to change the control to any keyboard or m
 ### Whats next
 I need to continue working through some player test notes, continue to see what sticks, what needs adjustments, what needs to go. I want to continue building more to the level for people to play and see from there if there is more to the game that needs to be added, or adjusted. 
 
-Short and sweet update, if you have any feedback about the game please don't hesitate to reach out. I would love to hear about it!
+Short and sweet update, if you have any feedback about the game please don't hesitate to reach out. I would love to hear about it! 
